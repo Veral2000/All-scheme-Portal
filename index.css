@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(1, 1, 20, 0.9);
+    overflow: hidden;
+}
+
+.welcomeNote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.main-hadding {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d3bb46;
+}
+
+
+span {
+    font-family: 'Times New Roman',serif;
+    letter-spacing: 5px;
+    font-size: 80px;
+    font-weight: bold;
+    text-decoration: underline #cb9b51;
+    background-image: linear-gradient(
+	                        to right,
+                        	#462d23 0,
+                           	#cb9b51 22%, 
+                        	#f6e27a 45%,
+                        	#f6f2c0 50%,
+                        	#f6e27a 55%,
+                        	#cb9b51 78%,
+	                        #462523 100%
+	                    );
+   color:transparent;
+   -webkit-background-clip:text;
+}
+
+.startButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.startButton button {
+    height: 90px;
+    width: 300px;
+    margin: 30px;
+    font-size: 26px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    color: #f1d755;
+    background-color: #5E30F5;
+    cursor: pointer;
+}
+
+.startButton button:hover {
+    background-color: #311983;
+    color: #ecc810;
+}
+
+.startButton button:focus {
+    background-color: #f1d755;
+    color: #5E30F5;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom .runningText {
+    margin-top: 150px;
+    margin-right: 220px;
+}
+
+marquee {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f1d755;
+}
+
+.images ul {
+    display: flex;
+    float: right;
+    margin-right: 80px;
+    margin-top: 80px;
+}
+
+.images ul li img{
+    margin-left: -150px;
+    display: block;
+    width: 200px;
+    transform: rotate(-30deg) skewX(25deg) translate(0,0);
+    transition: 0.5s;
+}
+
+.backButton {
+    position: fixed;
+    top: 55%;
+    left: 45%;
+    height: 45px;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    color: #f1d755;
+    background-color: #5E30F5;
+    cursor: pointer;
+}
+
+.backButton :hover
+{
+    background-color: #311983;
+    color: #ecc810;
+}
+
+.backButton:focus
+{
+    background-color: #f1d755;
+    color: #5E30F5;
+}
+
